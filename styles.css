@@ -1,0 +1,128 @@
+
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+  background: #F5F7FA;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #869198;
+}
+
+.site-wrapper {
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3em;
+}
+
+.site-title {
+  font-size: 3em;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.2em;
+}
+
+.site-subtext {
+  font-size: .75em;
+  color: #869198;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.logo-container {
+}
+
+.logo {
+  max-width: 10em;
+}
+
+.download-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 53.875em;
+  align-self: center;
+  width: 100%;
+}
+
+.download-text {
+  align-self: flex-start;
+  font-size: 1.5em;
+}
+
+.download-icon {
+  width: 100%;
+}
+
+.download-icon-container {
+  padding: 2em;
+  width: 2em;
+}
+
+.download-section {
+  display: grid;
+  background: #f2f7fe;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  grid-gap: 1.5em;
+  padding: 1.5em;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  /* max-width: 46.875em; */
+  width: 100%;
+  letter-spacing: 0.01em;
+}
+
+.download-option {
+  background: #ffffff;
+  border: 1px solid #bdc3c7;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2em 0;
+  border-radius: 4px;
+  min-height: 200px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.download-option:hover {
+  cursor: pointer;
+  background: #F5F7FA;
+}
+
+.footer {
+  color: #869198;
+  font-weight: 100;
+  font-size: 0.75em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  line-height: .75em;
+}
