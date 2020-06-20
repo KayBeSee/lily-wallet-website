@@ -26,6 +26,9 @@
 
 <body>
   <div class="site-wrapper">
+    <header>
+      <a class="download-button" href="#download">Download</a>
+    </header>
     <div class="hero">
       <div class="logo-container">
         <img class="logo" src="./icon.png" />
@@ -36,22 +39,29 @@
       </div>
     </div>
 
-    <div class="download-wrapper">
-      <div class="download-text">Download</div>
-      <div class="download-section">
-        <a href="#" class="download-option">
-          <div class="download-icon-container">
-            <img class="download-icon" src="./windows-logo.png" />
-          </div>
-          Windows
-        </a>
-        <a href="https://github.com/KayBeSee/lily-wallet/releases/download/v0.0.1-beta/LilyWallet-mac-v0.0.01-beta.dmg"
-          class="download-option" style="border-top: 8px solid rgb(56, 126, 236);">
-          <div class="download-icon-container">
-            <img class="download-icon" src="./apple-logo.png" />
-          </div>
-          Mac
-        </a>
+    <div class="screenshot-container">
+      <img class="screenshot" src="./screenshots/account.png" />
+    </div>
+
+    <div id="download" class="download-wrapper">
+      <div class="download-container">
+        <div class="download-text">Download</div>
+        <div class="download-section">
+          <a href="#" class="download-option">
+            <div class="download-icon-container">
+              <img class="download-icon" src="./windows-logo.png" />
+            </div>
+            Windows
+          </a>
+          <a href="https://github.com/KayBeSee/lily-wallet/releases/download/v0.0.1-beta/LilyWallet-mac-v0.0.01-beta.dmg"
+            class="download-option" style="border-top: 8px solid rgb(56, 126, 236);">
+            <div class="download-icon-container">
+              <img class="download-icon" src="./apple-logo.png" />
+            </div>
+            Mac
+            <span class="file-name">LilyWallet-mac-v0.0.01-beta.dmg</span>
+          </a>
+        </div>
       </div>
     </div>
   </div>
