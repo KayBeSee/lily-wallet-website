@@ -75,6 +75,11 @@ header {
   }
 }
 
+.security-heading {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
 .security-screenshot-container {
   flex: 2 0 400px;
   align-items: center;
@@ -102,6 +107,11 @@ header {
   .features-section {
     padding: 0;
   }
+}
+
+.feature-heading {
+  font-size: 1.5em;
+  margin-bottom: 0.25em;
 }
 
 .feature-subtext {
