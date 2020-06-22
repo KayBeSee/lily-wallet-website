@@ -73,7 +73,7 @@ header {
 
 @media (max-width: 62.5em) {
   .security-section {
-    padding: 0;
+    padding: 2em;
   }
 }
 
@@ -109,7 +109,7 @@ header {
 
 @media (max-width: 62.5em) {
   .privacy-section {
-    padding: 0;
+    padding: 2em;
   }
 }
 
