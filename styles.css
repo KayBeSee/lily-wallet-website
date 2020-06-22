@@ -148,10 +148,6 @@ header {
   .privacy-text-section {
     padding: 2em;
   }
-
-  .privacy-screenshot-container {
-    display: none;
-  }
 }
 
 /* FEATURES */
@@ -192,12 +188,6 @@ header {
   flex: 2 0 400px;
   align-items: center;
   display: flex;
-}
-
-@media (max-width: 62.5em) {
-  .feature-screenshot-container {
-    display: none;
-  }
 }
 
 .feature-screenshot-wrapper {
