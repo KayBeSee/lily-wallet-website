@@ -3,7 +3,9 @@
 const Fragment = React.Fragment;
 // import Transition from './Transition.js';
 
-const React, { useRef, useEffect, useContext } = React;
+const useRef = React.useRef;
+const useEffect = React.useEffect;
+const useContext = React.useContext;
 const { CSSTransition } = ReactTransitionGroup;
 
 const TransitionContext = React.createContext({
