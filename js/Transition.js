@@ -1,5 +1,5 @@
-import React, { useRef, useEffect, useContext } from 'react'
-import { CSSTransition as ReactCSSTransition } from 'react-transition-group'
+const React, { useRef, useEffect, useContext } = React;
+const { CSSTransition } = ReactTransitionGroup;
 
 const TransitionContext = React.createContext({
   parent: {},
@@ -13,7 +13,7 @@ function useIsInitialRender() {
   return isInitialRender.current
 }
 
-function CSSTransition({
+function MyTransition({
   show,
   enter = '',
   enterFrom = '',
@@ -80,7 +80,7 @@ export const Transition = ({ show, appear, ...rest }) => {
 
   if (isChild) {
     return (
-      <CSSTransition
+      <MyTransition
         appear={parent.appear || !parent.isInitialRender}
         show={parent.show}
         {...rest}
@@ -98,7 +98,7 @@ export const Transition = ({ show, appear, ...rest }) => {
         },
       }}
     >
-      <CSSTransition appear={appear} show={show} {...rest} />
+      <MyTransition appear={appear} show={show} {...rest} />
     </TransitionContext.Provider>
   )
 }
