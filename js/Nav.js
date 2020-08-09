@@ -180,7 +180,7 @@ class Nav extends React.Component {
                 aria-labelledby="main-menu">
                 <div className="px-5 pt-4 flex items-center justify-between">
                   <div>
-                    <img className="h-8 w-auto" src="Logo.svg" alt="" />
+                    <img className="h-8 w-auto" src="logo.svg" alt="" />
                   </div>
                   <div className="-mr-2">
                     <button type="button" onClick={() => { this.setState({ isOpen: !this.state.isOpen }) }}
@@ -198,19 +198,19 @@ class Nav extends React.Component {
                     role="menuitem">Product</a>
                   <a href="#"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                    role="menuitem">Features</a>
+                    role="menuitem">Security</a>
                   <a href="#"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                    role="menuitem">Marketplace</a>
+                    role="menuitem">Docs</a>
                   <a href="#"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                    role="menuitem">Company</a>
+                    role="menuitem">Support</a>
                 </div>
                 <div>
                   <a href="#"
                     className="block w-full px-5 py-3 text-center font-medium text-yellow-600 bg-gray-50 hover:bg-gray-100 hover:text-yellow-700 focus:outline-none focus:bg-gray-100 focus:text-yellow-700 transition duration-150 ease-in-out"
                     role="menuitem">
-                    Log in
+                    Download
                 </a>
                 </div>
               </div>
