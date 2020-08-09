@@ -80,7 +80,7 @@ function MyTransition({
   )
 }
 
-export const Transition = ({ show, appear, ...rest }) => {
+const Transition = ({ show, appear, ...rest }) => {
   const { parent } = useContext(TransitionContext)
   const isInitialRender = useIsInitialRender()
   const isChild = show === undefined
@@ -109,8 +109,6 @@ export const Transition = ({ show, appear, ...rest }) => {
     </TransitionContext.Provider>
   )
 }
-
-export default Transition
 
 class Nav extends React.Component {
   constructor(props) {
