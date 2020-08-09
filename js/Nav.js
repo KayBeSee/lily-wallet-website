@@ -1,7 +1,7 @@
 'use strict';
 
 const Fragment = React.Fragment;
-const Transition = require('./Transition');
+import Transition from './Transition';
 
 class Nav extends React.Component {
   constructor(props) {
