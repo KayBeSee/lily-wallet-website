@@ -124,7 +124,7 @@ class Nav extends React.Component {
           <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
             <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="#" aria-label="Home" style={{ display: 'flex', alignItems: 'center' }}>
+                <a href="http://lily.kevinmulcrone.com/" aria-label="Home" style={{ display: 'flex', alignItems: 'center' }}>
                   <img className="h-8 w-auto sm:h-10" style={{ margin: '0 0 .5em' }} src="logo.svg" alt="Logo" />
                   <span className="font-medium" style={{ paddingLeft: '.5em', fontSize: '1.25em' }}>Lily
                     Wallet</span>
@@ -142,20 +142,18 @@ class Nav extends React.Component {
               </div>
             </div>
             <div className="hidden md:flex md:space-x-10">
-              <a href="#"
-                className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Product</a>
-              <a href="#"
+              <a href="http://lily.kevinmulcrone.com#features"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Features</a>
-              <a href="#"
+              <a href="http://lily.kevinmulcrone.com#security"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Security</a>
-              <a href="#"
+              <a href="http://lily.kevinmulcrone.com/docs"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Docs</a>
-              <a href="#"
+              <a href="mailto:kaybesee@gmail.com"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Support</a>
             </div>
             <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
               <span className="inline-flex rounded-md shadow">
-                <a href="#"
+                <a href="http://lily.kevinmulcrone.com#download"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-yellow-300 bg-white hover:text-yellow-400 focus:outline-none focus:border-yellow-300 focus:shadow-outline-yellow active:bg-gray-50 active:text-yellow-700 transition duration-150 ease-in-out">
                   Download
                 </a>
@@ -174,7 +172,7 @@ class Nav extends React.Component {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+          <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" style="z-index: 1;">
             <div className="rounded-lg shadow-md">
               <div className="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical"
                 aria-labelledby="main-menu">
