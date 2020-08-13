@@ -177,9 +177,11 @@ class Nav extends React.Component {
               <div className="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical"
                 aria-labelledby="main-menu">
                 <div className="px-5 pt-4 flex items-center justify-between">
-                  <div>
-                    <img className="h-8 w-auto" src="logo.svg" alt="" />
-                  </div>
+                  <a href="http://lily.kevinmulcrone.com/">
+                    <div>
+                      <img className="h-8 w-auto" src="logo.svg" alt="" />
+                    </div>
+                  </a>
                   <div className="-mr-2">
                     <button type="button" onClick={() => { this.setState({ isOpen: !this.state.isOpen }) }}
                       className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
@@ -191,21 +193,21 @@ class Nav extends React.Component {
                   </div>
                 </div>
                 <div className="px-2 pt-2 pb-3">
-                  <a href="#"
+                  <a href="http://lily.kevinmulcrone.com#features"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                    role="menuitem">Product</a>
-                  <a href="#"
+                    role="menuitem">Features</a>
+                  <a href="http://lily.kevinmulcrone.com#security"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem">Security</a>
-                  <a href="#"
+                  <a href="http://lily.kevinmulcrone.com/docs"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem">Docs</a>
-                  <a href="#"
+                  <a href="mailto:kaybesee@gmail.com"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem">Support</a>
                 </div>
                 <div>
-                  <a href="#"
+                  <a href="http://lily.kevinmulcrone.com#download"
                     className="block w-full px-5 py-3 text-center font-medium text-yellow-600 bg-gray-50 hover:bg-gray-100 hover:text-yellow-700 focus:outline-none focus:bg-gray-100 focus:text-yellow-700 transition duration-150 ease-in-out"
                     role="menuitem">
                     Download
