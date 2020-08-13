@@ -172,7 +172,7 @@ class Nav extends React.Component {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" style="z-index: 1;">
+          <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" style={{ zIndex: 1 }}>
             <div className="rounded-lg shadow-md">
               <div className="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical"
                 aria-labelledby="main-menu">
