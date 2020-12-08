@@ -124,7 +124,7 @@ class Nav extends React.Component {
           <nav className="relative flex items-center justify-between sm:h-10 md:justify-center">
             <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
               <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="http://lily.kevinmulcrone.com/" aria-label="Home" style={{ display: 'flex', alignItems: 'center' }}>
+                <a href="https://lily.kevinmulcrone.com/" aria-label="Home" style={{ display: 'flex', alignItems: 'center' }}>
                   <img className="h-8 w-auto sm:h-10" style={{ margin: '0 0 .5em' }} src="logo.svg" alt="Logo" />
                   <span className="font-medium" style={{ paddingLeft: '.5em', fontSize: '1.25em' }}>Lily
                     Wallet</span>
@@ -142,18 +142,18 @@ class Nav extends React.Component {
               </div>
             </div>
             <div className="hidden md:flex md:space-x-10">
-              <a href="http://lily.kevinmulcrone.com#features"
+              <a href="https://lily.kevinmulcrone.com#features"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Features</a>
-              <a href="http://lily.kevinmulcrone.com#security"
+              <a href="https://lily.kevinmulcrone.com#security"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Security</a>
-              <a href="http://lily.kevinmulcrone.com/docs"
+              <a href="https://docs.lily.kevinmulcrone.com"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Docs</a>
               <a href="mailto:kaybesee@gmail.com"
                 className="font-medium text-gray-500 hover:text-gray-900 transition duration-150 ease-in-out">Support</a>
             </div>
             <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
               <span className="inline-flex rounded-md shadow">
-                <a href="http://lily.kevinmulcrone.com#download"
+                <a href="https://lily.kevinmulcrone.com#download"
                   className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-yellow-300 bg-white hover:text-yellow-400 focus:outline-none focus:border-yellow-300 focus:shadow-outline-yellow active:bg-gray-50 active:text-yellow-700 transition duration-150 ease-in-out">
                   Download
                 </a>
@@ -177,7 +177,7 @@ class Nav extends React.Component {
               <div className="rounded-lg bg-white shadow-xs overflow-hidden" role="menu" aria-orientation="vertical"
                 aria-labelledby="main-menu">
                 <div className="px-5 pt-4 flex items-center justify-between">
-                  <a href="http://lily.kevinmulcrone.com/">
+                  <a href="https://lily.kevinmulcrone.com/">
                     <div>
                       <img className="h-8 w-auto" src="logo.svg" alt="" />
                     </div>
@@ -193,13 +193,13 @@ class Nav extends React.Component {
                   </div>
                 </div>
                 <div className="px-2 pt-2 pb-3">
-                  <a href="http://lily.kevinmulcrone.com#features"
+                  <a href="https://lily.kevinmulcrone.com#features"
                     className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem">Features</a>
-                  <a href="http://lily.kevinmulcrone.com#security"
+                  <a href="https://lily.kevinmulcrone.com#security"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem">Security</a>
-                  <a href="http://lily.kevinmulcrone.com/docs"
+                  <a href="https://docs.lily.kevinmulcrone.com"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem">Docs</a>
                   <a href="mailto:kaybesee@gmail.com"
@@ -207,7 +207,7 @@ class Nav extends React.Component {
                     role="menuitem">Support</a>
                 </div>
                 <div>
-                  <a href="http://lily.kevinmulcrone.com#download"
+                  <a href="https://lily.kevinmulcrone.com#download"
                     className="block w-full px-5 py-3 text-center font-medium text-yellow-600 bg-gray-50 hover:bg-gray-100 hover:text-yellow-700 focus:outline-none focus:bg-gray-100 focus:text-yellow-700 transition duration-150 ease-in-out"
                     role="menuitem">
                     Download
