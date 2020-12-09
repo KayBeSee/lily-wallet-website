@@ -79,37 +79,56 @@
       <div class="relative">
         <div class="absolute inset-0 flex flex-col">
           <div class="flex-1"></div>
-          <div class="flex-1 w-full bg-blue-700"></div>
+          <div class="flex-1 w-full bg-green-700"></div>
         </div>
         <div class="max-w-screen-xl mx-auto px-4 sm:px-6">
-          <img class="relative rounded-lg shadow-lg" src="./screenshots/account.png" alt="App screenshot">
+          <img class="relative" src="./screenshots/account.png" alt="App screenshot">
         </div>
       </div>
     </div>
-    <div class="bg-blue-700">
+    <div class="bg-green-700">
       <div class="max-w-screen-xl mx-auto pt-16 pb-20 px-4 sm:px-6 md:pb-24 lg:px-8">
         <h3 class="text-center text-gray-100 text-sm font-semibold uppercase tracking-wide">Compatible with the most
           popular Bitcoin hardware devices</h3>
-        <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-3">
+        <div class="mt-8 grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-4">
           <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-            <img class="h-12" src="trezor.svg" alt="Tuple">
+            <img class="h-12" src="cobo.png" alt="Cobo Vault">
           </div>
           <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
-            <img class="h-12" src="ledger.svg" alt="Mirage">
+            <img class="h-12" src="coldcard.png" alt="Coldcard">
           </div>
-          <div class="col-span-2 flex justify-center md:col-span-1 lg:col-span-1">
-            <img class="h-12" src="coldcard.png" alt="StaticKit">
+          <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+            <img class="h-12" src="trezor.svg" alt="Trezor">
           </div>
-          <!-- <div class="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
-            <img class="h-12" src="https://tailwindui.com/img/logos/transistor-logo.svg" alt="Transistor">
+          <div class="col-span-1 flex justify-center md:col-span-1 lg:col-span-1">
+            <img class="h-12" src="ledger.svg" alt="Ledger">
           </div>
-          <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
+          <!-- <div class="col-span-2 flex justify-center md:col-span-3 lg:col-span-1">
             <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo.svg" alt="Workcation">
           </div> -->
         </div>
       </div>
     </div>
   </div>
+  <div class="py-16 bg-gray-50 overflow-hidden lg:py-24 translate-y-12" id="features">
+    <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
+      <div class="grid grid-flow-col grid-rows-1 grid-cols-4 gap-4">
+        <div class="transform -rotate-3 -translate-y-4 sm:translate-y-0">
+          <img class="w-56" src="./devices/cobo1.png" />
+        </div>
+        <div class="transform -rotate-2 -translate-x-0 sm:-translate-y-1 translate-y-4">
+          <img class="w-64" src="./devices/coldcard.png" />
+        </div>
+        <div class="transform rotate-2  translate-x-8 -translate-y-2">
+          <img class="w-26" src="./devices/trezor.png" />
+        </div>
+        <div class="transform rotate-3 sm:translate-x-2 translate-x-4">
+          <img class="w-60" src="./devices/ledger.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="py-16 bg-gray-50 overflow-hidden lg:py-24" id="features">
     <div class="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-screen-xl">
       <svg class="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4" width="404"
@@ -203,7 +222,7 @@
           </ul>
         </div>
 
-        <div class="mt-10 -mx-4 relative lg:mt-0">
+        <div class="mt-10 -mx-4 relative lg:mt-0 sm:rotate-2 transform">
           <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404"
             fill="none" viewBox="0 0 784 404">
             <defs>
@@ -214,7 +233,7 @@
             </defs>
             <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
           </svg>
-          <img class="relative mx-auto" width="490" src="screenshots/setup1.png" alt="">
+          <img class="relative mx-auto" width="1200" src="screenshots/select-hardware-wallets.png" alt="">
         </div>
       </div>
 
@@ -293,7 +312,8 @@
                   <div class="ml-4">
                     <h5 class="text-lg leading-6 font-medium text-gray-900">Interoperable</h5>
                     <p class="mt-2 text-base leading-6 text-gray-500">
-                      Easily export your accounts to be used in other software like Caravan and BlueWallet.
+                      Easily export your accounts to be used in other software like Caravan, BlueWallet, and Bitcoin
+                      Core.
                     </p>
                   </div>
                 </div>
@@ -320,7 +340,7 @@
             </ul>
           </div>
 
-          <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+          <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1 transform sm:-rotate-2">
             <svg class="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width="784" height="404"
               fill="none" viewBox="0 0 784 404">
               <defs>
@@ -331,7 +351,7 @@
               </defs>
               <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
             </svg>
-            <img class="relative mx-auto" width="490" src="screenshots/unlock.png" alt="">
+            <img class="relative mx-auto" width="600" src="screenshots/unlock.png" alt="">
           </div>
         </div>
       </div>
@@ -443,7 +463,7 @@
       </div>
     </div> -->
 
-    <div class="bg-blue-700" id="download">
+    <div class="bg-green-700" id="download">
       <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-24 lg:px-8">
         <p class="text-center text-3xl leading-6 font-semibold uppercase text-gray-100 tracking-wider">
         <h1 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl sm:leading-10">
@@ -734,7 +754,7 @@
     </div>
 
 
-    <div class="bg-blue-700">
+    <div class="bg-green-700">
       <div class="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav class="-mx-5 -my-2 flex flex-wrap justify-center">
           <div class="px-5 py-2">
