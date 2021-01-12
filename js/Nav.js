@@ -208,7 +208,7 @@ class Nav extends React.Component {
                 </div>
                 <div>
                   <a href="https://lily.kevinmulcrone.com#download"
-                    className="block w-full px-5 py-3 text-center font-medium text-yellow-600 bg-gray-50 hover:bg-gray-100 hover:text-yellow-700 focus:outline-none focus:bg-gray-100 focus:text-yellow-700 transition duration-150 ease-in-out"
+                    className="rounded-md block w-full px-5 py-3 text-center font-medium text-white bg-green-700 hover:bg-gray-100 hover:text-yellow-700 focus:outline-none focus:bg-gray-100 focus:text-yellow-700 transition duration-150 ease-in-out"
                     role="menuitem">
                     Download
                 </a>
