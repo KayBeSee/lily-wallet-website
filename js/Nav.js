@@ -192,7 +192,7 @@ class Nav extends React.Component {
                 Pricing
               </a>
               <a
-                href="https://lily.kevinmulcrone.com/pricing.html"
+                href="https://docs.lily.kevinmulcrone.com"
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 role="menuitem"
               >
