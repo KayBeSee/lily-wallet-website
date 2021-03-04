@@ -312,5 +312,4 @@ class Nav extends React.Component {
 }
 
 const domContainer = document.querySelector("#navnav");
-console.log("domContainer: ", domContainer);
 ReactDOM.render(<Nav />, domContainer);
