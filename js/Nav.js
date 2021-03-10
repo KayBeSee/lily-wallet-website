@@ -286,7 +286,7 @@ class Nav extends React.Component {
                     Pricing
                   </a>
                   <a
-                    href="https://docs.lily.kevinmulcrone.com"
+                    href="https://lily.kevinmulcrone.com/support.html"
                     className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
@@ -295,11 +295,11 @@ class Nav extends React.Component {
                 </div>
                 <div>
                   <a
-                    href="https://lily.kevinmulcrone.com#download"
+                    href="#"
                     className="rounded-md block w-full px-5 py-3 text-center font-medium text-white bg-green-700 hover:bg-gray-100 hover:text-yellow-700 focus:outline-none focus:bg-gray-100 focus:text-yellow-700 transition duration-150 ease-in-out"
                     role="menuitem"
                   >
-                    Download
+                    Email Link to Download on Desktop
                   </a>
                 </div>
               </div>
